@@ -19,7 +19,7 @@ This will export all current Xcode snippets to the desired directory.
 
 To use them, just start typing and press `ctrl + space`.
 
-## Comments
+### Comments
 
 ```swift
 // MARK: - Public Variables
@@ -62,7 +62,7 @@ Start typing `//int...`
 ```
 Start typing `//to...`
 
-## Declarations
+### Declarations
 
 ```swift
 public let <name> = <value>
