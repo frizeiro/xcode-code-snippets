@@ -1,5 +1,5 @@
 # Xcode Code Snippets
-A collection of Xcode code snippets with exporting and importing scripts.
+A collection of useful Xcode code snippets with exporting and importing scripts.
 
 ## Importing snippets
 To import code snippets into Xcode, run the following command:
@@ -14,3 +14,75 @@ To export the code snippets from Xcode, located in `/Users/[USERNAME]/Library/De
 `./export.sh`
 
 This will export all current Xcode snippets to the desired directory.
+
+## Existing snippets
+
+To use them, just start typing and press `ctrl + space`.
+
+## Comments
+
+```swift
+// MARK: - Public Variables
+```
+Start typing `//pub...`
+
+```swift
+// MARK: - Internal Variables
+```
+Start typing `//int...`
+
+```swift
+// MARK: - Private Variables
+```
+Start typing `//pri...`
+
+
+```swift
+// MARK: - Life Cycle
+```
+Start typing `//lif...`
+
+```swift
+// MARK: - Public Methods
+```
+Start typing `//pub...`
+
+```swift
+// MARK: - Private Methods
+```
+Start typing `//pri...`
+
+```swift
+// MARK: - Internal Methods
+```
+Start typing `//int...`
+
+```swift
+// TODO: <your todo here...>
+```
+Start typing `//to...`
+
+## Declarations
+
+```swift
+public let <name> = <value>
+```
+Start typing `//let...`
+
+```swift
+public var <name> = <value>
+```
+Start typing `//var...`
+
+```swift
+extension <ClassName> {
+        
+}
+```
+Start typing `//exte...`
+
+## Creating your own snippets
+
+<img src="README_FILES/Screenshot01.png" width=400 />
+
+<img src="README_FILES/Screenshot02.png" width=400 />
